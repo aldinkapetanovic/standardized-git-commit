@@ -1,4 +1,10 @@
-## Edit commit-msg file
+## Clone/initialize project
+
+git init foobar
+
+cd foobar
+
+## Create/Edit commit-msg file in project's .git folder
 
 touch .git/hooks/commit-msg
 
