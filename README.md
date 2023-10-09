@@ -34,6 +34,22 @@ fi
 chmod +x .git/hooks/commit-msg
 ```
 
+## Alternative path (hooks in git repo proj)
+
+```sh
+git clone https://github.com/aldinkapetanovic/standardized-git-commit.git
+
+cd standardized-git-commit
+
+git config core.hooksPath hooks
+```
+
+### NOTE:
+`Git Hooks Directory`
+
+Since git ignores the .git/ directory, you'll need to create a separate directory to house your version-controlled hooks. Recommended is hooks/ to make its purpose obvious. Whatever name you give your hooks directory, you'll need to make sure that somehow you invoke git config core.hooksPath hooks command (or via script)
+
+
 # Commit Message Guidelines
 
 When making commits to this repository, please follow these guidelines:
