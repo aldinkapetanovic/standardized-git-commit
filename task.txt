@@ -1,0 +1,31 @@
+Requirements
+
+
+Imagine a scenario where you work on a collaborative project using Git for versioning files. To maintain clarity and organization within the project, you want to enforce a standardized commit message format.
+
+
+You want to commit messages to be in the format:
+
+
+: and to have a maximum of 50 characters.
+
+
+As for the commit type, you offer:
+
+
+    feature (new feature)
+    fix (bug fix)
+    refactor (refactoring code)
+    wip (work in progress - commits to be pushed later)
+    Solve this using Git hooks
+
+
+Hint: use `commit-msg` hook.
+
+
+Acceptance Criteria
+
+
+    Create a public GitHub repository
+    Add Readme explaining the solution
+    Create required git-hook in this repository
